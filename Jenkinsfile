@@ -11,12 +11,12 @@ git 'https://github.com/nissy11084/devops_lab.git'
 stage('build')
 {
 steps{
-sh 'javac hllo.java'
+sh 'javac hello.java'
 }
 }
 stage('run')
 {
-stages
+steps
 {
 sh 'java hello'
 }
