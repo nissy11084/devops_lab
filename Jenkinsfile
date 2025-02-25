@@ -5,7 +5,7 @@ stages
 stage('clone ')
 {
 steps{
-get 'https://github.com/nissy11084/devops_lab.git'
+git 'https://github.com/nissy11084/devops_lab.git'
 }
 }
 stage('build')
